@@ -1,9 +1,21 @@
 {
     "name": "rust-map",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "A Rust inspired Map API for JS/TS",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "keywords": [
+        "rust",
+        "map",
+        "ergonomics",
+        "key",
+        "value",
+        "entry",
+        "retain",
+        "orInsert",
+        "orInsertWith",
+        "orConstruct"
+    ],
     "scripts": {
         "test": "tsc && node ./dist/test.js",
         "build": "tsc"
